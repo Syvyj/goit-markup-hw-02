@@ -64,13 +64,13 @@ a {
 }
 
 .contact {
+  font-style: normal;
 }
 .contact-links {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
-  font-style: normal;
 }
 .contact-item {
 }
@@ -103,13 +103,13 @@ a {
   line-height: 150%;
   letter-spacing: 0.04em;
   color: #fff;
-  background: #4d5ae5;
+  background-color: #4d5ae5;
   cursor: pointer;
 }
 
 .title-button:hover,
 .title-button:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 
 /*----------ABOUT-US---------*/
@@ -148,9 +148,9 @@ a {
   color: #2e2f42;
 }
 .our-team-list {
-  background-color: #ffffff;
 }
 .our-team-item {
+  background-color: #ffffff;
 }
 .our-team-subtitle {
   font-weight: 500;
@@ -206,5 +206,9 @@ a {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+
+.footer-logo-span {
   color: #f4f4fd;
 }
