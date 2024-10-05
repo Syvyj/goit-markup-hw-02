@@ -16,7 +16,7 @@ a {
 /*----------LOGO---------*/
 .header-logo,
 .footer-logo {
-  font-family: 'Relawey', sans-serif;
+  font-family: 'Ralewey', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -55,6 +55,12 @@ a {
 }
 
 .nav-item-links {
+  color: #2e2f42;
+}
+
+.nav-item-links:hover,
+.nav-item-links:focus {
+  color: #404bbf;
 }
 
 .contact {
@@ -64,15 +70,24 @@ a {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
-  text-transform: none;
+  font-style: normal;
 }
 .contact-item {
 }
 .contact-item-links {
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.contact-item-links:hover,
+.contact-item-links:focus {
+  color: #404bbf;
 }
 
 /*----------MAIN---------*/
 .main {
+  background-color: #2e2f42;
 }
 .main-title {
   font-weight: 700;
@@ -81,7 +96,6 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  background: #2e2f42;
 }
 .title-button {
   font-weight: 500;
@@ -89,14 +103,19 @@ a {
   line-height: 150%;
   letter-spacing: 0.04em;
   color: #fff;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
+  cursor: pointer;
 }
+
+.title-button:hover,
+.title-button:focus {
+  color: #404bbf;
+}
+
 /*----------ABOUT-US---------*/
 .about-us {
 }
 .about-us-title {
-  display: none;
 }
 .about-us-list {
 }
@@ -117,6 +136,8 @@ a {
 }
 /*----------OUR-TEAM---------*/
 .our-team {
+  background-color: #f4f4fd;
+  text-transform: capitalize;
 }
 .our-team-title {
   font-weight: 700;
@@ -127,6 +148,7 @@ a {
   color: #2e2f42;
 }
 .our-team-list {
+  background-color: #ffffff;
 }
 .our-team-item {
 }
@@ -147,6 +169,7 @@ a {
 }
 /*----------PORTFOLIO---------*/
 .portfolio {
+  text-transform: capitalize;
 }
 .portfolio-title {
   font-weight: 700;
@@ -157,6 +180,7 @@ a {
   color: #2e2f42;
 }
 .portfolio-list {
+  background-color: #ffffff;
 }
 .portfolio-item {
 }
@@ -175,9 +199,9 @@ a {
 }
 /*----------FOOTER---------*/
 .footer {
+  background-color: #2e2f42;
 }
-.footer-logo {
-}
+
 .footer-text {
   font-size: 16px;
   line-height: 150%;
